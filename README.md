@@ -2,6 +2,8 @@
 Objetive: Simulate RPG characters in a simple console application, to implement the object-oriented concepts in C#.
 This is a challenge proposed by [DIO](https://www.dio.me/) in one of their C#/.NET courses.
 
+*Project under development*
+
 ## Instructions
 - Represent RPG characters in a console application
 - Characters should be implemented as objects
