@@ -1,0 +1,13 @@
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\obj\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.csprojAssemblyReference.cache
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\obj\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.AssemblyInfoInputs.cache
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\obj\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.AssemblyInfo.cs
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\obj\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.csproj.CoreCompileInputs.cache
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\bin\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.exe
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\bin\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.deps.json
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\bin\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.runtimeconfig.json
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\bin\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.runtimeconfig.dev.json
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\bin\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.dll
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\bin\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.pdb
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\obj\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.dll
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\obj\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.pdb
+C:\dioDotNetTests\DIO_RPG_ObjectOriented\obj\Debug\netcoreapp3.1\DIO_RPG_ObjectOriented.genruntimeconfig.cache
