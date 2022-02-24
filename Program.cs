@@ -7,11 +7,17 @@ namespace DIO_RPG_ObjectOriented
     {
         static void Main()
         {
-            Hero h1 = new Hero("Juan");
+            Knight hero1 = new Knight("Agatha");
+            WhiteWizard hero2 = new WhiteWizard("Gunther");
+            BlackWizard hero3 = new BlackWizard("Aang");
+            Ninja hero4 = new Ninja("Naruto");
 
-            Console.WriteLine(h1);
+            Console.WriteLine(hero1);
+            Console.WriteLine(hero2);
+            Console.WriteLine(hero3);
+            Console.WriteLine(hero4);
 
-            Console.WriteLine(h1.Attack());
+            Console.WriteLine(hero1.Attack());
         }
     }
 }

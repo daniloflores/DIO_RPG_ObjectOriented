@@ -1,6 +1,6 @@
 namespace DIO_RPG_ObjectOriented.src.Entities
 {
-    public class Hero
+    public abstract class Hero
     {
         public string Name { get; set; }
         public int Level { get; set;}
