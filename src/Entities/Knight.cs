@@ -5,6 +5,8 @@ namespace DIO_RPG_ObjectOriented.src.Entities
         public Knight(string Name) : base(Name)
         {
             this.HeroType = "Knight";
+            this.HP = 10;
+            this.MP = 2;
         }
     }
 }

@@ -12,11 +12,9 @@ namespace DIO_RPG_ObjectOriented.src.Entities
         {
             this.Name = Name;
             this.Level = 1;
-            this.HP = 10;
-            this.MP = 10;
         }
 
-        public string Attack() {
+        public virtual string Attack() {
             return this.Name + " attacked with a sword";
         }
 
@@ -26,8 +24,7 @@ namespace DIO_RPG_ObjectOriented.src.Entities
             Type: {this.HeroType}
             Level: {this.Level}
             HP: {this.HP}
-            MP: {this.MP}
-            ";
+            MP: {this.MP}";
         }
     }
 }
