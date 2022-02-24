@@ -19,12 +19,7 @@ namespace DIO_RPG_ObjectOriented.src.Entities
         }
 
         public override string ToString() {
-            return @$"
-            Hero name: {this.Name}
-            Type: {this.HeroType}
-            Level: {this.Level}
-            HP: {this.HP}
-            MP: {this.MP}";
+            return $"{this.Name,-10}{this.HeroType,-15}{this.Level,-9}{this.HP,-9}{this.MP,-9}";
         }
     }
 }
