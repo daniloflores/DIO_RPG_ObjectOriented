@@ -23,7 +23,7 @@ namespace DIO_RPG_ObjectOriented
                 } else if (playerOption == "H"){
                     playInterf.ShowHeroes(heroes);
                 } else if (playerOption == "F"){
-                    //Implement fight
+                    playInterf.Fight(heroes);
                 } else {
                     Console.WriteLine("Invalid option. Choose again.");
                 }
@@ -49,8 +49,6 @@ namespace DIO_RPG_ObjectOriented
 
             //Next:
             //1 - Implement another Attack method with a Bonus, with different outcomes depending on Bonus value
-            //2 - Make a menu to create characters (up to 4): user chooses hero type and name
-            //3 - Check if it is possible to store the heroes in a List, with up to 4 heroes
             //4 - Make a second menu that let's the user "control" the heroes, by choosign an action (Attack) 
         }
 

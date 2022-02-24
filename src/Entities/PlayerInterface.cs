@@ -21,7 +21,7 @@ namespace DIO_RPG_ObjectOriented.src.Entities
             WriteLine("      E: Exit                       ");
             WriteLine("------------------------------------");
             Write("Option: ");
-            string playerOption = ReadLine();
+            string playerOption = ReadLine().ToUpper();
             return playerOption;
         }
 
@@ -37,7 +37,7 @@ namespace DIO_RPG_ObjectOriented.src.Entities
             WriteLine("      W: White Wizard               ");
             WriteLine("------------------------------------");
             Write("Option: ");
-            string heroType = ReadLine();
+            string heroType = ReadLine().ToUpper();
 
             if (heroType == "K") {
                 heroes.Add(new Knight(newName));
@@ -62,12 +62,43 @@ namespace DIO_RPG_ObjectOriented.src.Entities
             WriteLine();
             WriteLine($"Your party has {heroes.Count} hero(es):");
             WriteLine("------------------------------------");
-            WriteLine("Name      Type          Level     HP       MP");
-            WriteLine("----      ----          -----    ----    ----");
+            WriteLine("Name          Type          Level      HP       MP");
+            WriteLine("----          ----          -----     ----     ----");
             foreach(Hero heroUnit in heroes){
                 WriteLine(heroUnit);
             }
             WriteLine("------------------------------------");
+        }
+
+        public void Fight(List<Hero> heroes){
+            
+            WriteLine("----------- FIGHT MENU -------------");
+
+            WriteLine("--------- Choose your hero ---------");
+            for(int i=0; i<heroes.Count; i++){
+                WriteLine($"      {i+1}: {heroes[i].Name,-27}");
+            }
+            WriteLine("------------------------------------");
+            Write("Option: ");
+            int heroChoice = int.Parse(ReadLine())-1;
+
+            WriteLine("--------- Choose a command ---------");
+            WriteLine(heroes[heroChoice].CommandList());
+            WriteLine("--------- Choose a command ---------");
+            Write("Option: ");
+            string commandChoice = ReadLine().ToUpper();
+
+            if (commandChoice=="A") {
+                WriteLine(heroes[heroChoice].Attack());
+            } else if (commandChoice=="D") {
+                WriteLine(heroes[heroChoice].Defend());
+            } else if (commandChoice=="S") {
+                WriteLine(heroes[heroChoice].SpecialAbility());
+            } else {
+                WriteLine("Invalid command");
+            }
+
+
         }
     }
 }
